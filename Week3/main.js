@@ -29,7 +29,7 @@ const newModulo = 21 % 5 === 1;
 // let str = "string"
 
 function returnString(str) {
- return str
+ return str;
   //simply return the string provided: str
 }
 
