@@ -44,7 +44,7 @@ function add(x, y) {
   // x and y are numbers
   // add x and y together and return the value
   // code here
-  // console.log(add);
+
 }
 
 
