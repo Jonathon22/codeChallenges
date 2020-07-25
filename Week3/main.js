@@ -28,6 +28,7 @@ const newModulo = 21 % 5 === 1;
 // 7
 // let str = "string"
 
+// Don't forget semicolons!
 function returnString(str) {
  return str
   //simply return the string provided: str
