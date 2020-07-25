@@ -3,7 +3,7 @@
 //In these first 6 questions, replace `null` with the answer
 
 //1. create a string variable, it can contain anything
-const newString = "null";
+const newString = 'null';
 
 //2. create a number variable, it an be any number
 const newNum = 3;
@@ -50,21 +50,21 @@ function add(x, y) {
 
 // 9
 function subtract(x, y) {
-  return x - y
+  return x - y;
   // subtract y from x and return the value
   // code here
 }
 
 // 10
 function multiply(x, y) {
-  return x * y
+  return x * y;
   // multiply x by y and return the value
   // code here
 }
 
 // 11
 function divide(x, y) {
-  return x / y
+  return x / y;
   // divide x by y and return the value
   // code here
 }
@@ -72,9 +72,9 @@ function divide(x, y) {
 // 12
 function areEqual(x, y) {
   if (x === y){
-  return true 
+  return true;
   }else {
-    return false
+    return false;
   }
   // return true if x and y are the same
   // otherwise return false
@@ -84,9 +84,9 @@ function areEqual(x, y) {
 // 13
 function areSameLength(str1, str2) {
   if(str1.length === str2.length){
-    return true
+    return true;
   }else {
-    return false
+    return false;
   }
   // return true if the two strings have the same length
   // otherwise return false
@@ -98,9 +98,9 @@ function areSameLength(str1, str2) {
 // 14
 function lessThanNinety(num) {
   if(num < 90 ) {
-    return true
+    return true;
   } else {
-    return false
+    return false;
   }
   // return true if the function argument: num , is less than ninety
   // otherwise return false
@@ -110,9 +110,9 @@ function lessThanNinety(num) {
 // 15
 function greaterThanFifty(num) {
   if(num > 50){
-    return true
+    return true;
   } else {
-    return false
+    return false;
   }
   // return true if num is greater than fifty
   // otherwise return false
@@ -121,7 +121,7 @@ function greaterThanFifty(num) {
 
 // 16
 function getRemainder(x, y) {
-  return x % y
+  return x % y;
   // return the remainder from dividing x by y
   // code here
 }
@@ -129,9 +129,9 @@ function getRemainder(x, y) {
 // 17
 function isEven(num) {
   if(num%2 === 0) {
-    return true 
+    return true; 
   } else {
-    return false
+    return false;
   } 
   // return true if num is even
   // otherwise return false
@@ -141,9 +141,9 @@ function isEven(num) {
 // 18
 function isOdd(num) {
   if (num%2 !== 0){
-    return true 
+    return true; 
   } else {
-    return false 
+    return false;
   } 
   // return true if num is odd
   // otherwise return false
@@ -153,7 +153,7 @@ function isOdd(num) {
 
 // 19
 function square(num) {
-  return num * num
+  return num * num;
   // square num and return the new value
   // hint: NOT square root!
   // code here
@@ -161,7 +161,7 @@ function square(num) {
 
 // 20
 function cube(num) {
-  return num * num * num
+  return num * num * num;
   // cube num and return the new value
   // code here
 } 
@@ -182,14 +182,14 @@ return Math.round(num);
 
 // 23
 function roundUp(num) {
-  return Math.ceil(num)
+  return Math.ceil(num);
   // round num up and return it
   // code here
 } 
 
 // 24
 function addExclamationPoint(str) {
-  return str + '!'
+  return str + '!';
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
   // code here
@@ -197,7 +197,7 @@ function addExclamationPoint(str) {
 
 // 25
 function combineNames(firstName, lastName) {
-  return firstName + ' ' + lastName
+  return firstName + ' ' + lastName;
   // return firstName and lastName combined as one string and separated by a space.
   // 'NSS', 'Bootcamp' -> 'NSS Bootcamp'
   // code here
@@ -205,7 +205,7 @@ function combineNames(firstName, lastName) {
 
 // 26
 function getGreeting(name) {
-  return 'Hello ' + name
+  return 'Hello ' + name;
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
@@ -216,14 +216,14 @@ function getGreeting(name) {
 
 // 27
 function getRectangleArea(length, width) {
-return length * width
+return length * width;
   // return the area of the rectangle by using length and width
   // code here
 }
 
 // 28
 function getTriangleArea(base, height) {
-  return base * height / 2
+  return base * height / 2;
   // return the area of the triangle by using base and height
   // code here
 } 
